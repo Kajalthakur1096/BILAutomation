@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import bil.constants.AssertConstants;
+import bil.helper.BaseTest;
 import bil.helper.ConfigFileReader;
 import bil.helper.TestDataProvider;
 import bil.model.UserDetails;
@@ -46,7 +47,7 @@ public class LoginTest extends BaseTest {
 	 * This method will verify whether the launched url is the correct url or
 	 * not.
 	 */
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void verifyApplicationUrl() {
 		Assert.assertEquals(driver.getCurrentUrl(), AssertConstants.getUrlPath());
 		log.info("verifyApplicationUrl: Successfully validated the Application Url");

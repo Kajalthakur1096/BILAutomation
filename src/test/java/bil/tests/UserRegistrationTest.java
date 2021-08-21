@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
 
 import bil.constants.AssertConstants;
 import bil.constants.Constants;
+import bil.helper.BaseTest;
 import bil.helper.ConfigFileReader;
 import bil.helper.TestDataProvider;
 import bil.helper.Utils;

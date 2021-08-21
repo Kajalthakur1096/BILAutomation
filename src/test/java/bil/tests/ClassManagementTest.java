@@ -11,6 +11,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import bil.helper.BaseTest;
 import bil.helper.ConfigFileReader;
 import bil.helper.TestDataProvider;
 import bil.model.ClassDetails;

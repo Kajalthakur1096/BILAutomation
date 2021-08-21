@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>bil</groupId>
-	<artifactId>BILAutomation</artifactId>
+	<artifactId>BIM_Automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>BILAutomation</name>
+	<name>BIM_Automation</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -53,7 +53,8 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.10</version>
-			<scope>test</scope>
+			<!-- <scope>test</scope>
+			<scope>compile</scope> -->
 		</dependency>
 
 		<dependency><!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
